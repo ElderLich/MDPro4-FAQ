@@ -1,6 +1,6 @@
 # MDPro4 — FAQ & Support
 
-A public community guide for MDPro4, with 54 answers across seven categories, searchable questions, shareable answer links, bug-report guidance and creator resources.
+A public community guide for MDPro4, with 54 answers across seven categories, searchable questions, readable answer panels, bug-report guidance and creator resources.
 
 **Live site:** https://elderlich.github.io/MDPro4-FAQ/
 
@@ -18,7 +18,7 @@ GitHub Pages publishes from **main / docs**. Configure that source in **Settings
 
 ## Content format
 
-Each answer has `id`, `category`, `title`, `body` and `discordUrl`. The body supports paragraphs, numbered/bulleted lists, bold text, inline code and HTTPS Markdown links. Keep `discordUrl` empty when there is no verified discussion thread; the website link remains available for every answer.
+Each answer has `id`, `category`, `title` and `body`. The body supports paragraphs, numbered/bulleted lists, bold text, inline code and HTTPS Markdown links. Answer panels show the question and its content. Existing `#faq-<id>` links continue to open the matching answer.
 
 The guide distinguishes ocgcore duels from native-engine Solo, along with their card pools and replay formats. Release-specific instructions must follow the actual published build. Publishing this site does not establish that an unreleased game feature has shipped.
 

@@ -50,379 +50,325 @@
       "id": "what-is-mdpro4",
       "category": "start",
       "title": "What is MDPro4?",
-      "body": "**MDPro4 is a community Yu-Gi-Oh! simulator built in Unity, combining YGOPro-style dueling with Master Duel assets and presentation.**\n\nIts modes, supported cards and features follow MDPro4's own releases. It is a separate community project, so an update or feature in the official Master Duel game does not automatically appear here.\n\nNew here? Start with the download instructions for your platform, then check the card and online-play guides below.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459577547107995842"
+      "body": "**MDPro4 is a community Yu-Gi-Oh! simulator built in Unity, combining YGOPro-style dueling with Master Duel assets and presentation.**\n\nIts modes, supported cards and features follow MDPro4's own releases. It is a separate community project, so an update or feature in the official Master Duel game does not automatically appear here.\n\nNew here? Start with the download instructions for your platform, then check the card and online-play guides below."
     },
     {
       "id": "what-is-the-latest-version",
       "category": "start",
       "title": "What is the latest version?",
-      "body": "**Check #announcements for the latest playable release for your platform.** Compare its version with the one shown in your game and follow the matching installation or update instructions in **#mdpro4-download**.\n\nA development version number is not a release announcement. Entries described as **synthetic updater fixtures** are for testing the updater, not for playing the game.\n\nPlatform releases can become available at different times, so use the package specifically announced for your device.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459579096500670744"
+      "body": "**Check #announcements for the latest playable release for your platform.** Compare its version with the one shown in your game and follow the matching installation or update instructions in **#mdpro4-download**.\n\nA development version number is not a release announcement. Entries described as **synthetic updater fixtures** are for testing the updater, not for playing the game.\n\nPlatform releases can become available at different times, so use the package specifically announced for your device."
     },
     {
       "id": "which-languages-are-supported",
       "category": "start",
       "title": "Which languages are supported?",
-      "body": "You can choose **UI Language** and **Card Language** separately in **Settings → General**.\n\nThe language set includes English, Spanish, French, German, Italian, Japanese, Korean, Portuguese, Thai, Simplified Chinese and Traditional Chinese.\n\nCard translations and prerelease translations can have different coverage. If a card is missing or its text looks wrong, include the **card name/ID, selected language, game version and a screenshot** in your report.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459580528247177306"
+      "body": "You can choose **UI Language** and **Card Language** separately in **Settings → General**.\n\nThe language set includes English, Spanish, French, German, Italian, Japanese, Korean, Portuguese, Thai, Simplified Chinese and Traditional Chinese.\n\nCard translations and prerelease translations can have different coverage. If a card is missing or its text looks wrong, include the **card name/ID, selected language, game version and a screenshot** in your report."
     },
     {
       "id": "why-are-some-master-duel-features-different-or-missing",
       "category": "start",
       "title": "Why are some Master Duel features different or missing?",
-      "body": "**MDPro4 has its own development and release process.** A feature needs working game logic, interface controls, assets and platform support before it can be offered reliably.\n\nSharing Master Duel's visual style does not mean every mode, event, animation or online service is available. Features may also depend on the selected duel engine.\n\nFor a request, describe what you want to do and include an example. For a broken existing feature, include your version, platform, mode and steps to reproduce it.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459582520059363328"
+      "body": "**MDPro4 has its own development and release process.** A feature needs working game logic, interface controls, assets and platform support before it can be offered reliably.\n\nSharing Master Duel's visual style does not mean every mode, event, animation or online service is available. Features may also depend on the selected duel engine.\n\nFor a request, describe what you want to do and include an example. For a broken existing feature, include your version, platform, mode and steps to reproduce it."
     },
     {
       "id": "can-i-play-on-iphone-or-ipad",
       "category": "start",
       "title": "Can I play on iPhone or iPad?",
-      "body": "**There is no announced iOS release or release date in this FAQ.** Follow the project's release announcements for any change.\n\nAn Android APK cannot be installed as an iPhone app. Please use only a package explicitly released for your device.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459583510577676381"
+      "body": "**There is no announced iOS release or release date in this FAQ.** Follow the project's release announcements for any change.\n\nAn Android APK cannot be installed as an iPhone app. Please use only a package explicitly released for your device."
     },
     {
       "id": "do-i-need-an-internet-connection",
       "category": "start",
       "title": "Do I need an internet connection?",
-      "body": "**You need internet access to download the game, get updates and use online services.** The current base installers contain their resources for offline installation once the complete set has been downloaded.\n\nLocal play uses the content included in your installed release. Online duels, account services and downloading optional or newer packs require a connection.\n\nAn unfinished base installation must still be completed before ordinary play and patching can proceed.",
-      "discordUrl": ""
+      "body": "**You need internet access to download the game, get updates and use online services.** The current base installers contain their resources for offline installation once the complete set has been downloaded.\n\nLocal play uses the content included in your installed release. Online duels, account services and downloading optional or newer packs require a connection.\n\nAn unfinished base installation must still be completed before ordinary play and patching can proceed."
     },
     {
       "id": "how-do-updates-work",
       "category": "download",
       "title": "How do updates work?",
-      "body": "**MDPro4 includes an in-game update system for published, supported update routes.** Finish the complete base installation first, then follow the update prompts.\n\nYou can usually skip intermediate releases when a cumulative patch is published for your installed version. On Android, an update that changes the application may also require a matching APK.\n\nIf no route is offered for your version, follow the release announcement. Patches replace changed files; they are not a full repair scan for every missing or damaged file.\n\nKeep enough free space for downloads, extraction and temporary backups, and allow installation or recovery to finish.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459594141976625363"
+      "body": "**MDPro4 includes an in-game update system for published, supported update routes.** Finish the complete base installation first, then follow the update prompts.\n\nYou can usually skip intermediate releases when a cumulative patch is published for your installed version. On Android, an update that changes the application may also require a matching APK.\n\nIf no route is offered for your version, follow the release announcement. Patches replace changed files; they are not a full repair scan for every missing or damaged file.\n\nKeep enough free space for downloads, extraction and temporary backups, and allow installation or recovery to finish."
     },
     {
       "id": "where-should-i-download-mdpro4",
       "category": "download",
       "title": "Where should I download MDPro4?",
-      "body": "**Use #mdpro4-download and the matching post in #announcements.** Choose the package released for your platform and follow its installation instructions.\n\nDownload the complete installer set from the same release. Windows, Android, Linux and macOS use different packages; keep the original part filenames.\n\nThe download channel also contains the community installation guide. Follow the instructions for your exact release if an older guide shows different steps.\n\nA GitHub **Source code** ZIP is not a ready-to-play installation. Synthetic updater fixtures are not the game either.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459584354316452093"
+      "body": "**Use #mdpro4-download and the matching post in #announcements.** Choose the package released for your platform and follow its installation instructions.\n\nDownload the complete installer set from the same release. Windows, Android, Linux and macOS use different packages; keep the original part filenames.\n\nThe download channel also contains the community installation guide. Follow the instructions for your exact release if an older guide shows different steps.\n\nA GitHub **Source code** ZIP is not a ready-to-play installation. Synthetic updater fixtures are not the game either."
     },
     {
       "id": "installation-failed-what-should-i-check",
       "category": "download",
       "title": "Installation failed. What should I check?",
-      "body": "**Keep the exact error message—it tells us where installation stopped.**\n\n1. Check that every required part is present and belongs to the same platform, version and installer set.\n2. Keep the original filenames. On desktop, place all parts beside the installer.\n3. Check free space for both the downloaded files and the extracted game.\n4. If a part fails verification, download that part again from an announced mirror.\n\nOn Android, install and open each numbered APK in order; wait for its completion message before the next one.\n\nStill failing? Report your device/OS, release version, filename or part number, download source and exact error. Preserve any recovery or backup folder mentioned by the game.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459584722094002371"
+      "body": "**Keep the exact error message—it tells us where installation stopped.**\n\n1. Check that every required part is present and belongs to the same platform, version and installer set.\n2. Keep the original filenames. On desktop, place all parts beside the installer.\n3. Check free space for both the downloaded files and the extracted game.\n4. If a part fails verification, download that part again from an announced mirror.\n\nOn Android, install and open each numbered APK in order; wait for its completion message before the next one.\n\nStill failing? Report your device/OS, release version, filename or part number, download source and exact error. Preserve any recovery or backup folder mentioned by the game."
     },
     {
       "id": "a-mirror-says-its-download-quota-was-reached-what-now",
       "category": "download",
       "title": "A mirror says its download quota was reached. What now?",
-      "body": "**Try another mirror listed in the same release announcement, or try the affected host again later.**\n\nA host's quota message does not mean your installed game is broken. Keep any parts that finished correctly and get the missing parts from another announced mirror of the **exact same installer set**.\n\nIf every listed source fails, report the release, filename, mirror and exact message so the download links can be checked.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459584868202578051"
+      "body": "**Try another mirror listed in the same release announcement, or try the affected host again later.**\n\nA host's quota message does not mean your installed game is broken. Keep any parts that finished correctly and get the missing parts from another announced mirror of the **exact same installer set**.\n\nIf every listed source fails, report the release, filename, mirror and exact message so the download links can be checked."
     },
     {
       "id": "why-does-the-installer-ask-for-disk-2",
       "category": "download",
       "title": "Why does the installer ask for “Disk 2”?",
-      "body": "**It is looking for the next installer part. You do not need a physical disc.**\n\nDownload all numbered files listed for that release and keep them together beside the setup program. Keep their original names, including extensions. A browser-added suffix such as `(1)` can prevent the installer from finding a part.\n\nIf it still asks, check that the file finished downloading and belongs to the same installer set. Use the release's file list or checksums when available. Do not mix files from an older or rebuilt set, even if the displayed game version matches.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459593077382582313"
+      "body": "**It is looking for the next installer part. You do not need a physical disc.**\n\nDownload all numbered files listed for that release and keep them together beside the setup program. Keep their original names, including extensions. A browser-added suffix such as `(1)` can prevent the installer from finding a part.\n\nIf it still asks, check that the file finished downloading and belongs to the same installer set. Use the release's file list or checksums when available. Do not mix files from an older or rebuilt set, even if the displayed game version matches."
     },
     {
       "id": "can-i-download-installer-parts-from-different-mirrors",
       "category": "download",
       "title": "Can I download installer parts from different mirrors?",
-      "body": "**Yes, if the mirrors provide identical files from the exact same installer set.**\n\nFor example, you can get Parts 1–3 from one announced mirror and Part 4 from another. Keep the original filenames and verify checksums when supplied.\n\nMatch the platform, release and set—not just the version number. A repackaged installer can have different split boundaries while keeping the same game version. Never mix old and refreshed parts.\n\nThis helps you obtain the complete set. It does not combine several hosts into one faster download.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459596960544592024"
+      "body": "**Yes, if the mirrors provide identical files from the exact same installer set.**\n\nFor example, you can get Parts 1–3 from one announced mirror and Part 4 from another. Keep the original filenames and verify checksums when supplied.\n\nMatch the platform, release and set—not just the version number. A repackaged installer can have different split boundaries while keeping the same game version. Never mix old and refreshed parts.\n\nThis helps you obtain the complete set. It does not combine several hosts into one faster download."
     },
     {
       "id": "can-i-go-back-to-an-older-version",
       "category": "download",
       "title": "Can I go back to an older version?",
-      "body": "**Downgrading an installed game is not supported by the updater.** Do not apply an older patch or copy an old executable over a newer installation: the player, data and assets need to match.\n\nIf you need an older version for a specific reason, ask in **#troubleshoot** with your current version and platform. An older complete release, if still available, would need separate release-specific instructions.\n\nBack up or export your decks, replays and custom content before changing installations. Newer saved data may not work in an older version, and uninstalling an Android app can remove its data.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459597160264892648"
+      "body": "**Downgrading an installed game is not supported by the updater.** Do not apply an older patch or copy an old executable over a newer installation: the player, data and assets need to match.\n\nIf you need an older version for a specific reason, ask in **#troubleshoot** with your current version and platform. An older complete release, if still available, would need separate release-specific instructions.\n\nBack up or export your decks, replays and custom content before changing installations. Newer saved data may not work in an older version, and uninstalling an Android app can remove its data."
     },
     {
       "id": "can-i-delete-the-installer-files-afterward",
       "category": "download",
       "title": "Can I delete the installer files afterward?",
-      "body": "**After the complete installation finishes and the game opens successfully, you can remove the downloaded setup archives or APK copies to save space.** Keeping a backup set is useful if you want to reinstall without downloading everything again.\n\nDelete only the installer files you downloaded. Keep the installed game, its resource folders, decks and replays. On Android, finish every required APK part before removing your downloaded copies.\n\nDo not manually delete update recovery or backup folders while installation is running or an error still needs investigation.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459597296357605457"
+      "body": "**After the complete installation finishes and the game opens successfully, you can remove the downloaded setup archives or APK copies to save space.** Keeping a backup set is useful if you want to reinstall without downloading everything again.\n\nDelete only the installer files you downloaded. Keep the installed game, its resource folders, decks and replays. On Android, finish every required APK part before removing your downloaded copies.\n\nDo not manually delete update recovery or backup folders while installation is running or an error still needs investigation."
     },
     {
       "id": "how-do-the-numbered-android-apk-parts-work",
       "category": "download",
       "title": "How do the numbered Android APK parts work?",
-      "body": "**Each APK installs another part of the same offline resource set.**\n\n1. Download the complete set for the announced Android release.\n2. Install **Part 1**, open the game, and wait until that part finishes.\n3. When the game says the part installed successfully, close it and install the next APK as an update to the same app.\n4. Open the game after every part and continue until the full set is complete.\n\nKeep enough free space for downloaded APKs and extracted resources. Do not uninstall the app between parts: the completed resources must stay in place. Installing all APKs without opening them in between does not extract each part.\n\nIf it stops, report the part number, completed count, device and exact message.",
-      "discordUrl": ""
+      "body": "**Each APK installs another part of the same offline resource set.**\n\n1. Download the complete set for the announced Android release.\n2. Install **Part 1**, open the game, and wait until that part finishes.\n3. When the game says the part installed successfully, close it and install the next APK as an update to the same app.\n4. Open the game after every part and continue until the full set is complete.\n\nKeep enough free space for downloaded APKs and extracted resources. Do not uninstall the app between parts: the completed resources must stay in place. Installing all APKs without opening them in between does not extract each part.\n\nIf it stops, report the part number, completed count, device and exact message."
     },
     {
       "id": "i-missed-several-updates-must-i-install-each-one",
       "category": "download",
       "title": "I missed several updates. Must I install each one?",
-      "body": "**Usually no—use the update offered for your installed version.** When a cumulative patch is published, it contains the changes needed to go directly from your version to the target release.\n\nWindows can also process a supported chain of incremental patches in one update operation. Android, Linux and macOS need a published direct cumulative route.\n\nDo not download every alternative patch or manually combine archives. If your version has no supported route, follow the release announcement's installation instructions.",
-      "discordUrl": ""
+      "body": "**Usually no—use the update offered for your installed version.** When a cumulative patch is published, it contains the changes needed to go directly from your version to the target release.\n\nWindows can also process a supported chain of incremental patches in one update operation. Android, Linux and macOS need a published direct cumulative route.\n\nDo not download every alternative patch or manually combine archives. If your version has no supported route, follow the release announcement's installation instructions."
     },
     {
       "id": "can-i-install-mdpro4-over-mdpro3",
       "category": "download",
       "title": "Can I install MDPro4 over MDPro3?",
-      "body": "**Install MDPro4 as a fresh installation and keep a backup of your MDPro3 files.** The Workshop distribution treats MDPro4 as a new baseline, including a different Android app identity.\n\nExport or copy the decks, replays and custom content you want to retain, then import supported files into MDPro4. Check them in the new game before removing the old installation.\n\nDo not merge the entire MDPro3 game folder into MDPro4: old player files, bundles and configuration can conflict with the new release. Compatibility of every old replay or custom pack is not guaranteed.",
-      "discordUrl": ""
+      "body": "**Install MDPro4 as a fresh installation and keep a backup of your MDPro3 files.** The Workshop distribution treats MDPro4 as a new baseline, including a different Android app identity.\n\nExport or copy the decks, replays and custom content you want to retain, then import supported files into MDPro4. Check them in the new game before removing the old installation.\n\nDo not merge the entire MDPro3 game folder into MDPro4: old player files, bundles and configuration can conflict with the new release. Compatibility of every old replay or custom pack is not guaranteed."
     },
     {
       "id": "are-updater-test-releases-playable-game-updates",
       "category": "download",
       "title": "Are updater test releases playable game updates?",
-      "body": "**No. Releases described as synthetic updater fixtures exist to test the update system.** They are not complete game releases or ordinary patches for your main installation.\n\nUse only the playable release and update channel announced for players. Test fixtures belong in disposable test installations following the maintainer's instructions.\n\nPre-Release **card packs** are a separate feature: they add newer card content and should not be confused with updater test builds.",
-      "discordUrl": ""
+      "body": "**No. Releases described as synthetic updater fixtures exist to test the update system.** They are not complete game releases or ordinary patches for your main installation.\n\nUse only the playable release and update channel announced for players. Test fixtures belong in disposable test installations following the maintainer's instructions.\n\nPre-Release **card packs** are a separate feature: they add newer card content and should not be confused with updater test builds."
     },
     {
       "id": "how-many-cards-are-available",
       "category": "cards",
       "title": "How many cards are available?",
-      "body": "The total changes with game data updates, Pre-Release packs, alternate artwork, and installed custom packs. Standard and Rush Duel also have different card pools.\n\nFor a specific card, search the Deck Editor with the relevant pool selected and restrictive filters cleared. Include your **game version, language, and card ID/name** when asking about something missing.\n\nWe avoid a fixed FAQ total because it would quickly become outdated.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459579690208727163"
+      "body": "The total changes with game data updates, Pre-Release packs, alternate artwork, and installed custom packs. Standard and Rush Duel also have different card pools.\n\nFor a specific card, search the Deck Editor with the relevant pool selected and restrictive filters cleared. Include your **game version, language, and card ID/name** when asking about something missing.\n\nWe avoid a fixed FAQ total because it would quickly become outdated."
     },
     {
       "id": "are-cards-from-a-particular-set-included",
       "category": "cards",
       "title": "Are cards from a particular set included?",
-      "body": "Check the card in the **Deck Editor** first. Update the relevant Standard or Rush Pre-Release pack if it is a newer card, then clear search filters that could hide it.\n\nA card appearing in the editor confirms that its data is installed. It does not prove every interaction has been tested or that every online server supports it.\n\nIf you need help, give us the **set name, exact card name or ID, game version, language, and mode/server**.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459580322047070219"
+      "body": "Check the card in the **Deck Editor** first. Update the relevant Standard or Rush Pre-Release pack if it is a newer card, then clear search filters that could hide it.\n\nA card appearing in the editor confirms that its data is installed. It does not prove every interaction has been tested or that every online server supports it.\n\nIf you need help, give us the **set name, exact card name or ID, game version, language, and mode/server**."
     },
     {
       "id": "what-are-pre-release-cards",
       "category": "cards",
       "title": "What are Pre-Release cards?",
-      "body": "Pre-Release packs add newer cards and their scripts before they are included in the regular card data. Their translations and effects may change as the cards are reviewed.\n\n**Standard and Rush Duel use separate packs.** Update the pack you need from **Settings → Expansions**, outside an active duel.\n\nHaving a card installed does not automatically make it legal or supported on every online server.\n\nThe project is now called [Pre-Release Translations](https://github.com/ElderLich/Pre-Release-Translations). The old **TransSuperpre** download location is retired.\n\nThese packs extend the **ocgcore** card pool; they do not add effects to the separate Master Duel native engine.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459580941046517913"
+      "body": "Pre-Release packs add newer cards and their scripts before they are included in the regular card data. Their translations and effects may change as the cards are reviewed.\n\n**Standard and Rush Duel use separate packs.** Update the pack you need from **Settings → Expansions**, outside an active duel.\n\nHaving a card installed does not automatically make it legal or supported on every online server.\n\nThe project is now called [Pre-Release Translations](https://github.com/ElderLich/Pre-Release-Translations). The old **TransSuperpre** download location is retired.\n\nThese packs extend the **ocgcore** card pool; they do not add effects to the separate Master Duel native engine."
     },
     {
       "id": "a-card-is-already-released-in-the-tcg-ocg-why-is-it-missing",
       "category": "cards",
       "title": "A card is already released in the TCG/OCG. Why is it missing?",
-      "body": "The physical release date and the simulator update schedule are separate. A card still needs to reach the game's data and scripts; translated packs can also need review before publication.\n\nFirst update the relevant pack under **Settings → Expansions** and check your Deck Editor filters.\n\nIf it is still missing, tell us the **exact card name or ID**, your **language**, and your **game version**. The release of a physical set does not guarantee same-day availability in every language.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459582057847197756"
+      "body": "The physical release date and the simulator update schedule are separate. A card still needs to reach the game's data and scripts; translated packs can also need review before publication.\n\nFirst update the relevant pack under **Settings → Expansions** and check your Deck Editor filters.\n\nIf it is still missing, tell us the **exact card name or ID**, your **language**, and your **game version**. The release of a physical set does not guarantee same-day availability in every language."
     },
     {
       "id": "i-cannot-find-a-new-or-pre-release-card-what-should-i-check",
       "category": "cards",
       "title": "I cannot find a new or Pre-Release card. What should I check?",
-      "body": "1. Check whether it belongs to **Standard** or **Rush Duel**.\n2. Outside a duel, open **Settings → Expansions** and update that Pre-Release pack.\n3. Clear restrictive Deck Editor filters and check the relevant card pool.\n4. Search by **card ID** if available; translated names can differ.\n\nThe pack follows your selected interface language. After changing languages, update the relevant pack again.\n\nIf it remains missing, report the card name/ID, language, game version, and any update error. Different languages may receive reviewed cards at different times; an update check cannot download unpublished content.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459591821427605719"
+      "body": "1. Check whether it belongs to **Standard** or **Rush Duel**.\n2. Outside a duel, open **Settings → Expansions** and update that Pre-Release pack.\n3. Clear restrictive Deck Editor filters and check the relevant card pool.\n4. Search by **card ID** if available; translated names can differ.\n\nThe pack follows your selected interface language. After changing languages, update the relevant pack again.\n\nIf it remains missing, report the card name/ID, language, game version, and any update error. Different languages may receive reviewed cards at different times; an update check cannot download unpublished content."
     },
     {
       "id": "why-is-a-new-alternate-artwork-missing",
       "category": "cards",
       "title": "Why is a new alternate artwork missing?",
-      "body": "**Alternate artwork is added after its official OCG/TCG release, as part of a later game/data update.** An announcement or preview image does not mean the artwork is already included.\n\nCheck the current release notes and the card’s available artwork variants. If an artwork that should be present is missing, include the **card name, a reference image/link, game version and platform**.\n\nThis helps us distinguish artwork awaiting inclusion from an installed image that is failing to load.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1472170065293082829"
+      "body": "**Alternate artwork is added after its official OCG/TCG release, as part of a later game/data update.** An announcement or preview image does not mean the artwork is already included.\n\nCheck the current release notes and the card’s available artwork variants. If an artwork that should be present is missing, include the **card name, a reference image/link, game version and platform**.\n\nThis helps us distinguish artwork awaiting inclusion from an installed image that is failing to load."
     },
     {
       "id": "why-do-the-available-cards-change-when-i-switch-engines",
       "category": "cards",
       "title": "Why do the available cards change when I switch engines?",
-      "body": "**The ocgcore and Master Duel native engines use different card data.** If your build offers engine selection, switching can change which cards and modes are available.\n\nPre-Release packs and ordinary custom Lua cards extend the **ocgcore** card pool. They do not automatically add those cards or effects to the native engine.\n\nWhen reporting a missing card, effect problem or replay issue, include the **selected engine**, card name/ID, mode and game version. Attach the replay saved by that mode; keep its original file extension.",
-      "discordUrl": ""
+      "body": "**The ocgcore and Master Duel native engines use different card data.** If your build offers engine selection, switching can change which cards and modes are available.\n\nPre-Release packs and ordinary custom Lua cards extend the **ocgcore** card pool. They do not automatically add those cards or effects to the native engine.\n\nWhen reporting a missing card, effect problem or replay issue, include the **selected engine**, card name/ID, mode and game version. Attach the replay saved by that mode; keep its original file extension."
     },
     {
       "id": "how-do-i-play-online-or-invite-a-friend",
       "category": "online",
       "title": "How do I play online or invite a friend?",
-      "body": "Open **Online** and choose the service or room you want to use. Both players need a compatible game version and the same server/room details.\n\n**Inviting a friend**\nUse **Copy link** for the selected server/room, or **Connection details → Copy join link** inside a room. Your friend can open the invitation or paste it into Online’s room-code field and select **Connect**.\n\n**Playing over LAN**\nOne player creates the local room; the others connect using the host’s reachable IP address and the port shown in its connection details.\n\nA LAN invitation does not create a network connection by itself. Room links may contain the password, so share them with the intended players.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459585386702700574"
+      "body": "Open **Online** and choose the service or room you want to use. Both players need a compatible game version and the same server/room details.\n\n**Inviting a friend**\nUse **Copy link** for the selected server/room, or **Connection details → Copy join link** inside a room. Your friend can open the invitation or paste it into Online’s room-code field and select **Connect**.\n\n**Playing over LAN**\nOne player creates the local room; the others connect using the host’s reachable IP address and the port shown in its connection details.\n\nA LAN invitation does not create a network connection by itself. Room links may contain the password, so share them with the intended players."
     },
     {
       "id": "what-ip-address-and-port-should-my-friend-use",
       "category": "online",
       "title": "What IP address and port should my friend use?",
-      "body": "The **host** is the player who created the local room. Other players need that host’s reachable IP address and the **actual room port**.\n\n• On the same local network, use the host’s local network address.\n• Through a shared VPN, use the host’s address on that VPN.\n• **127.0.0.1 / localhost points to your own device**—do not send it to a friend as the host address.\n\nCopy the port from the room’s connection details. Hosting normally searches from **7911**, but another available port may be used.\n\nAcross different networks, simply sharing a local IP address is not enough; the devices must have a reachable network route.",
-      "discordUrl": ""
+      "body": "The **host** is the player who created the local room. Other players need that host’s reachable IP address and the **actual room port**.\n\n• On the same local network, use the host’s local network address.\n• Through a shared VPN, use the host’s address on that VPN.\n• **127.0.0.1 / localhost points to your own device**—do not send it to a friend as the host address.\n\nCopy the port from the room’s connection details. Hosting normally searches from **7911**, but another available port may be used.\n\nAcross different networks, simply sharing a local IP address is not enough; the devices must have a reachable network route."
     },
     {
       "id": "why-does-a-server-reject-a-card-or-my-deck",
       "category": "online",
       "title": "Why does a server reject a card or my deck?",
-      "body": "**The server decides which cards and decks it accepts.** A card appearing in your editor does not guarantee that it is available or legal on that server.\n\nPossible reasons include the room’s card pool, banlist, deck-size rules, unsupported prerelease/custom cards, or different client/server data versions.\n\nRead the exact rejection message and check the room settings. If it still seems wrong, include the **server, room rules, game version, card name/ID and complete error message**.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459593640929263676"
+      "body": "**The server decides which cards and decks it accepts.** A card appearing in your editor does not guarantee that it is available or legal on that server.\n\nPossible reasons include the room’s card pool, banlist, deck-size rules, unsupported prerelease/custom cards, or different client/server data versions.\n\nRead the exact rejection message and check the room settings. If it still seems wrong, include the **server, room rules, game version, card name/ID and complete error message**."
     },
     {
       "id": "can-players-on-different-platforms-duel-together",
       "category": "online",
       "title": "Can players on different platforms duel together?",
-      "body": "Use **compatible releases on the same supported server or room**. Both players must use compatible game data and any required custom content.\n\nThe operating system alone does not determine whether the connection will work: server compatibility, version differences and network reachability also matter.\n\nIf a mixed-platform connection fails, report **both platforms, both game versions, the server/room type and the exact error**. For LAN, check the host’s IP address and room port as well.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459595060621345060"
+      "body": "Use **compatible releases on the same supported server or room**. Both players must use compatible game data and any required custom content.\n\nThe operating system alone does not determine whether the connection will work: server compatibility, version differences and network reachability also matter.\n\nIf a mixed-platform connection fails, report **both platforms, both game versions, the server/room type and the exact error**. For LAN, check the host’s IP address and room port as well."
     },
     {
       "id": "can-i-use-the-master-duel-banlist",
       "category": "online",
       "title": "Can I use the Master Duel banlist?",
-      "body": "Where the mode offers banlist selection, choose an installed list marked **MD** and check its date.\n\nFor online duels, the **server or host’s selected rules** decide which cards are legal. Selecting an MD list in the Deck Editor helps you build for it, but does not change an existing server’s rules.\n\nIf the list you need is missing, check the latest release/data information before reporting its name and date.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459595305115713810"
+      "body": "Where the mode offers banlist selection, choose an installed list marked **MD** and check its date.\n\nFor online duels, the **server or host’s selected rules** decide which cards are legal. Selecting an MD list in the Deck Editor helps you build for it, but does not change an existing server’s rules.\n\nIf the list you need is missing, check the latest release/data information before reporting its name and date."
     },
     {
       "id": "why-is-the-online-room-list-empty",
       "category": "online",
       "title": "Why is the online room list empty?",
-      "body": "A room list is not a count of every MDPro4 player. You may be viewing a particular service, room type or filter, and other players may be using a different service or private room.\n\nCheck the selected server and any filters. When joining a friend, ask for their **exact server and room invitation/code** instead of waiting for the room to appear.\n\nIf the list fails to load or shows an error, include the **service, time, game version and exact message** in your report.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459595419440123935"
+      "body": "A room list is not a count of every MDPro4 player. You may be viewing a particular service, room type or filter, and other players may be using a different service or private room.\n\nCheck the selected server and any filters. When joining a friend, ask for their **exact server and room invitation/code** instead of waiting for the room to appear.\n\nIf the list fails to load or shows an error, include the **service, time, game version and exact message** in your report."
     },
     {
       "id": "why-is-my-online-timer-wrong-or-negative",
       "category": "online",
       "title": "Why is my online timer wrong or negative?",
-      "body": "**The server controls timeouts and match results.** The displayed clock is an estimate of the time information sent by that server; different services can also have separate inactivity rules.\n\nA negative or clearly incorrect display should be reported. Include your **game version, server, screenshot/video, when it started and a replay if available**.\n\nDo not assume that a frozen clock means the server has stopped counting time.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459595941886689435"
+      "body": "**The server controls timeouts and match results.** The displayed clock is an estimate of the time information sent by that server; different services can also have separate inactivity rules.\n\nA negative or clearly incorrect display should be reported. Include your **game version, server, screenshot/video, when it started and a replay if available**.\n\nDo not assume that a frozen clock means the server has stopped counting time."
     },
     {
       "id": "i-cannot-join-a-lan-room-what-should-i-check",
       "category": "online",
       "title": "I cannot join a LAN room. What should I check?",
-      "body": "Check these in order:\n\n1. The host has created the room and is still in it.\n2. Everyone is using compatible game versions.\n3. The guest entered the host’s reachable IP address and the room’s exact port.\n4. Both devices are on the same reachable local network or shared VPN.\n5. The host’s firewall permits MDPro4 on the intended network.\n\nA guest should not use **127.0.0.1** to reach someone else’s device. Guest Wi-Fi or network isolation can also prevent devices from reaching each other.\n\nIf it still fails, include the **platforms, versions, network type, exact error and whether the room appears at all**. Keep private room passwords out of public screenshots.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459587305017966693"
+      "body": "Check these in order:\n\n1. The host has created the room and is still in it.\n2. Everyone is using compatible game versions.\n3. The guest entered the host’s reachable IP address and the room’s exact port.\n4. Both devices are on the same reachable local network or shared VPN.\n5. The host’s firewall permits MDPro4 on the intended network.\n\nA guest should not use **127.0.0.1** to reach someone else’s device. Guest Wi-Fi or network isolation can also prevent devices from reaching each other.\n\nIf it still fails, include the **platforms, versions, network type, exact error and whether the room appears at all**. Keep private room passwords out of public screenshots."
     },
     {
       "id": "i-cant-register-a-mycard-account-what-should-i-do",
       "category": "online",
       "title": "I can’t register a MyCard account. What should I do?",
-      "body": "**Report the exact registration message and the step where it appears.** Account registration is handled by the account service, so reinstalling the game will not necessarily change it.\n\nCheck the registration form's requirements and any current service announcement. If the form fails inside the client, try the registration page linked by the service in your browser.\n\nFor help, include whether you used the client or browser, the time of the attempt and a screenshot with private details hidden. Never include your password or verification code in a public report.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1464925003819782224"
+      "body": "**Report the exact registration message and the step where it appears.** Account registration is handled by the account service, so reinstalling the game will not necessarily change it.\n\nCheck the registration form's requirements and any current service announcement. If the form fails inside the client, try the registration page linked by the service in your browser.\n\nFor help, include whether you used the client or browser, the time of the attempt and a screenshot with private details hidden. Never include your password or verification code in a public report."
     },
     {
       "id": "can-i-put-more-than-15-cards-in-the-extra-deck",
       "category": "solo",
       "title": "Can I put more than 15 cards in the Extra Deck?",
-      "body": "**A normal Extra Deck is limited to 15 cards.**\n\nThe editor may hold a larger list for custom use, but that does not make it legal in a normal duel. Automatic additions start going to the Side Deck once the Extra Deck reaches 15.\n\nThe selected mode and the room/server decide whether a deck is accepted. For ordinary duels, keep the Extra Deck within the allowed limit.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459582757671010457"
+      "body": "**A normal Extra Deck is limited to 15 cards.**\n\nThe editor may hold a larger list for custom use, but that does not make it legal in a normal duel. Automatic additions start going to the Side Deck once the Extra Deck reaches 15.\n\nThe selected mode and the room/server decide whether a deck is accepted. For ordinary duels, keep the Extra Deck within the allowed limit."
     },
     {
       "id": "why-is-the-solo-bot-list-empty",
       "category": "solo",
       "title": "Why is the Solo bot list empty?",
-      "body": "The Solo bot list is included with the game data.\n\n• Clear any active search or filter.\n• Check the selected UI language.\n• Make sure installation finished and all required game-data parts were installed.\n\nIf the list is still empty, report your **game version, platform and UI language**, with a screenshot of the Solo screen and any loading error.\n\nUse the data files supplied for your release; mixing bot catalogs or decks from unrelated versions can create missing entries or broken references.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459585734049530031"
+      "body": "The Solo bot list is included with the game data.\n\n• Clear any active search or filter.\n• Check the selected UI language.\n• Make sure installation finished and all required game-data parts were installed.\n\nIf the list is still empty, report your **game version, platform and UI language**, with a screenshot of the Solo screen and any loading error.\n\nUse the data files supplied for your release; mixing bot catalogs or decks from unrelated versions can create missing entries or broken references."
     },
     {
       "id": "why-cant-the-bot-play-my-decks-combos",
       "category": "solo",
       "title": "Why can’t the bot play my deck’s combos?",
-      "body": "**WindBot uses programmed strategies for particular decks.** Giving a bot a different deck does not teach it that deck’s combos.\n\nStart with the bot’s supplied deck. Custom-deck performance depends on its existing strategy and how well that strategy fits the cards you give it; unusual builds may produce weak or incorrect decisions.\n\nTo report a bot decision, include the **bot name, deck, game version, replay and the turn/action** where the problem occurs. Explain the play you expected it to make.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459586131095195648"
+      "body": "**WindBot uses programmed strategies for particular decks.** Giving a bot a different deck does not teach it that deck’s combos.\n\nStart with the bot’s supplied deck. Custom-deck performance depends on its existing strategy and how well that strategy fits the cards you give it; unusual builds may produce weak or incorrect decisions.\n\nTo report a bot decision, include the **bot name, deck, game version, replay and the turn/action** where the problem occurs. Explain the play you expected it to make."
     },
     {
       "id": "why-is-the-bot-using-maxx-c-or-a-forbidden-card",
       "category": "solo",
       "title": "Why is the bot using Maxx “C” or a forbidden card?",
-      "body": "**The bundled local WindBot deck does not automatically rebuild itself around the banlist you selected in the Deck Editor.** Local Solo can therefore include cards that are forbidden in your preferred competitive format.\n\nCheck the bot’s deck, the duel mode and its deck-check settings. Online servers apply their own room rules. A card being forbidden in another format is different from an effect resolving incorrectly.\n\nIf you suspect an illegal effect or extra draw, attach the **replay, bot name, card name and turn** so the full game state can be checked.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459586396271677482"
+      "body": "**The bundled local WindBot deck does not automatically rebuild itself around the banlist you selected in the Deck Editor.** Local Solo can therefore include cards that are forbidden in your preferred competitive format.\n\nCheck the bot’s deck, the duel mode and its deck-check settings. Online servers apply their own room rules. A card being forbidden in another format is different from an effect resolving incorrectly.\n\nIf you suspect an illegal effect or extra draw, attach the **replay, bot name, card name and turn** so the full game state can be checked."
     },
     {
       "id": "how-do-i-test-a-one-card-starting-hand",
       "category": "solo",
       "title": "How do I test a one-card starting hand?",
-      "body": "Open your deck, select **Test Hand**, set **Starting Hand** to **1**, then press **Start**.\n\nThe setup also lets you change Life Points, the rule, shuffling and whether a replay is saved when leaving. Turn **No Shuffle** off when you want a shuffled draw.\n\nIf your version does not show these options, check the current release information. If Test Hand stalls or Retry fails, report your **version, selected rule, settings and deck**.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459595554899361894"
+      "body": "Open your deck, select **Test Hand**, set **Starting Hand** to **1**, then press **Start**.\n\nThe setup also lets you change Life Points, the rule, shuffling and whether a replay is saved when leaving. Turn **No Shuffle** off when you want a shuffled draw.\n\nIf your version does not show these options, check the current release information. If Test Hand stalls or Retry fails, report your **version, selected rule, settings and deck**."
     },
     {
       "id": "why-am-i-hearing-different-duel-music",
       "category": "troubleshooting",
       "title": "Why am I hearing different duel music?",
-      "body": "Check **Settings → Audio → Music**:\n\n• Music can follow **your field** or **your opponent’s field**.\n• **Custom Duel Music** can replace the usual field soundtrack.\n• Some fields share music, and some change tracks as the duel progresses.\n\nIf music is missing, also check the BGM volume. If the wrong track still plays, report the **field, music settings, game version and when it happens**; a short recording helps.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459583216452112599"
+      "body": "Check **Settings → Audio → Music**:\n\n• Music can follow **your field** or **your opponent’s field**.\n• **Custom Duel Music** can replace the usual field soundtrack.\n• Some fields share music, and some change tracks as the duel progresses.\n\nIf music is missing, also check the BGM volume. If the wrong track still plays, report the **field, music settings, game version and when it happens**; a short recording helps."
     },
     {
       "id": "the-game-is-stuck-on-the-loading-screen-what-should-i-check",
       "category": "troubleshooting",
       "title": "The game is stuck on the loading screen. What should I check?",
-      "body": "**Start with the last message shown on screen.** A loading problem can come from an incomplete installation, missing data, unavailable storage or a specific startup error.\n\n1. Confirm that installation and all required resource parts completed.\n2. Check free space and that the installed game folder is accessible.\n3. On Android, a message telling you to install the next APK means the base set is still incomplete. Follow that instruction.\n4. If an error is displayed, copy it or take a screenshot before changing files.\n\nReport your version, device/OS, last loading message and whether this followed an installation or update. Attach the game log if available.\n\nRunning as administrator is not a general fix; investigate a permissions error only when the message points to one.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459586817786642675"
+      "body": "**Start with the last message shown on screen.** A loading problem can come from an incomplete installation, missing data, unavailable storage or a specific startup error.\n\n1. Confirm that installation and all required resource parts completed.\n2. Check free space and that the installed game folder is accessible.\n3. On Android, a message telling you to install the next APK means the base set is still incomplete. Follow that instruction.\n4. If an error is displayed, copy it or take a screenshot before changing files.\n\nReport your version, device/OS, last loading message and whether this followed an installation or update. Attach the game log if available.\n\nRunning as administrator is not a general fix; investigate a permissions error only when the message points to one."
     },
     {
       "id": "how-can-i-access-game-files-on-android-11-or-later",
       "category": "troubleshooting",
       "title": "How can I access game files on Android 11 or later?",
-      "body": "**Android restricts access to app data folders, so a file manager may be unable to open `Android/data`.**\n\nUse the game's **Import** and **Export** controls for supported files such as decks, replays and expansion packs. Place files you want to import in an ordinary user-accessible folder, then select them through the file picker.\n\nExport anything you want to keep before uninstalling or clearing app data. If an import fails, report the Android version, file type and exact message.\n\n[Android storage restrictions](https://developer.android.com/about/versions/11/privacy/storage)",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459592669595697326"
+      "body": "**Android restricts access to app data folders, so a file manager may be unable to open `Android/data`.**\n\nUse the game's **Import** and **Export** controls for supported files such as decks, replays and expansion packs. Place files you want to import in an ordinary user-accessible folder, then select them through the file picker.\n\nExport anything you want to keep before uninstalling or clearing app data. If an import fails, report the Android version, file type and exact message.\n\n[Android storage restrictions](https://developer.android.com/about/versions/11/privacy/storage)"
     },
     {
       "id": "i-click-join-or-connect-and-nothing-happens-what-now",
       "category": "troubleshooting",
       "title": "I click Join or Connect and nothing happens. What now?",
-      "body": "Check that you have a **player name**, the correct server address and port, and the right room code/password. Read any message shown near the action or in the game’s notifications.\n\nIf you are opening a room invitation, finish or leave an active room, duel or deck-editing session first; the invitation may wait until that session ends.\n\nFor account-based services, also check that you are signed in. If the action still fails, report the **service, exact button/screen, version, platform and any error**, ideally with a short video. Remove passwords or private account information from attachments.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459596088045600964"
+      "body": "Check that you have a **player name**, the correct server address and port, and the right room code/password. Read any message shown near the action or in the game’s notifications.\n\nIf you are opening a room invitation, finish or leave an active room, duel or deck-editing session first; the invitation may wait until that session ends.\n\nFor account-based services, also check that you are signed in. If the action still fails, report the **service, exact button/screen, version, platform and any error**, ideally with a short video. Remove passwords or private account information from attachments."
     },
     {
       "id": "my-controller-stops-working-in-a-duel-is-it-supported",
       "category": "troubleshooting",
       "title": "My controller stops working in a duel. Is it supported?",
-      "body": "In builds with the updated controller system, controller navigation includes **duel selections**, with button remapping under **Settings → Controls**. Follow the on-screen hints, which reflect the active bindings.\n\nIf an action cannot be reached, report the **controller model, USB/Bluetooth connection, platform, game version and exact screen or duel prompt**. Mention whether the same action works with mouse/touch and whether you changed the bindings.\n\nFor a duel issue, attach the replay and a short video showing the input problem when possible.",
-      "discordUrl": ""
+      "body": "In builds with the updated controller system, controller navigation includes **duel selections**, with button remapping under **Settings → Controls**. Follow the on-screen hints, which reflect the active bindings.\n\nIf an action cannot be reached, report the **controller model, USB/Bluetooth connection, platform, game version and exact screen or duel prompt**. Mention whether the same action works with mouse/touch and whether you changed the bindings.\n\nFor a duel issue, attach the replay and a short video showing the input problem when possible."
     },
     {
       "id": "i-see-a-black-screen-or-missing-card-artwork-what-should-i-check",
       "category": "troubleshooting",
       "title": "I see a black screen or missing card artwork. What should I check?",
-      "body": "**First check whether the whole screen is affected or only certain cards.**\n\nIf the issue appears when animated artwork plays, try turning **Animated Card Art** off in **Settings → Appearance**, then reopen the same screen. Older versions may place this option under General. This is a diagnostic workaround for animation-related problems.\n\nIf static art is also missing, verify that the complete resource installation finished. A missing artwork file or platform asset problem needs a different fix.\n\nIf it persists, report your device/GPU, OS, game version, affected card names/IDs, screenshot and whether disabling animation changed anything.",
-      "discordUrl": ""
+      "body": "**First check whether the whole screen is affected or only certain cards.**\n\nIf the issue appears when animated artwork plays, try turning **Animated Card Art** off in **Settings → Appearance**, then reopen the same screen. Older versions may place this option under General. This is a diagnostic workaround for animation-related problems.\n\nIf static art is also missing, verify that the complete resource installation finished. A missing artwork file or platform asset problem needs a different fix.\n\nIf it persists, report your device/GPU, OS, game version, affected card names/IDs, screenshot and whether disabling animation changed anything."
     },
     {
       "id": "why-do-my-cards-appear-as-unknown",
       "category": "troubleshooting",
       "title": "Why do my cards appear as “UNKNOWN”?",
-      "body": "**“UNKNOWN” does not identify one specific cause.** The client may be missing the card's data, using the wrong card pool, or failing to load its database.\n\nIf **many or all cards** are affected, check that the full installation completed and note any database/startup error. If **only a few cards** are affected, include their IDs and check whether they belong to a custom or Pre-Release pack.\n\nOn Windows, a missing-runtime or DLL error may require the matching [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist). Follow the error and release instructions; installing every runtime is not a universal solution.\n\nReport your version, OS, language, selected mode/engine, screenshot and relevant log. A deliberately hidden opponent card is different from a known card unexpectedly becoming UNKNOWN.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1472175580010250313"
+      "body": "**“UNKNOWN” does not identify one specific cause.** The client may be missing the card's data, using the wrong card pool, or failing to load its database.\n\nIf **many or all cards** are affected, check that the full installation completed and note any database/startup error. If **only a few cards** are affected, include their IDs and check whether they belong to a custom or Pre-Release pack.\n\nOn Windows, a missing-runtime or DLL error may require the matching [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist). Follow the error and release instructions; installing every runtime is not a universal solution.\n\nReport your version, OS, language, selected mode/engine, screenshot and relevant log. A deliberately hidden opponent card is different from a known card unexpectedly becoming UNKNOWN."
     },
     {
       "id": "what-should-i-include-in-a-bug-report",
       "category": "troubleshooting",
       "title": "What should I include in a bug report?",
-      "body": "**Report one issue at a time and show how to reproduce it.**\n\n**Client/version:**\n**Device and OS:**\n**Game language:**\n**Mode/server/engine:**\n**Steps:**\n1.\n2.\n3.\n**Expected result:**\n**Actual result / exact error:**\n**Frequency:**\n**Attachments:**\n\nFor **card effects or rulings**, attach the duel replay (`.yrp3d` for an ocgcore duel), card names/IDs and the turn where it happens. If no replay could be saved, explain why. For an **ocgcore Local AI** issue, compare with Server AI when possible. For **native-engine Solo**, identify the engine and attach its saved `.mdreplay` if available.\n\nFor **updates**, add the previous and target versions, filename/part number and download source. For **translation**, add the current text, language and suggested correction.\n\nScreenshots and videos help; the replay is especially useful for reconstructing a duel state.",
-      "discordUrl": ""
+      "body": "**Report one issue at a time and show how to reproduce it.**\n\n**Client/version:**\n**Device and OS:**\n**Game language:**\n**Mode/server/engine:**\n**Steps:**\n1.\n2.\n3.\n**Expected result:**\n**Actual result / exact error:**\n**Frequency:**\n**Attachments:**\n\nFor **card effects or rulings**, attach the duel replay (`.yrp3d` for an ocgcore duel), card names/IDs and the turn where it happens. If no replay could be saved, explain why. For an **ocgcore Local AI** issue, compare with Server AI when possible. For **native-engine Solo**, identify the engine and attach its saved `.mdreplay` if available.\n\nFor **updates**, add the previous and target versions, filename/part number and download source. For **translation**, add the current text, language and suggested correction.\n\nScreenshots and videos help; the replay is especially useful for reconstructing a duel state."
     },
     {
       "id": "can-i-play-custom-cards-online-with-a-friend",
       "category": "create",
       "title": "Can I play custom cards online with a friend?",
-      "body": "For **ocgcore custom cards**, use a **private/LAN host that supports the custom pack**. Everyone needs matching card data, and the duel host needs the matching scripts.\n\nInstalling a custom card on your device does not upload it to a public server. A public server's **Custom cards** option refers to the card pool that server supports.\n\nAgree on the same pack version and compatible game version before testing. If the room rejects the deck, check its permitted card pool and rules as well as whether the host has the pack.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459595800656084993"
+      "body": "For **ocgcore custom cards**, use a **private/LAN host that supports the custom pack**. Everyone needs matching card data, and the duel host needs the matching scripts.\n\nInstalling a custom card on your device does not upload it to a public server. A public server's **Custom cards** option refers to the card pool that server supports.\n\nAgree on the same pack version and compatible game version before testing. If the room rejects the deck, check its permitted card pool and rules as well as whether the host has the pack."
     },
     {
       "id": "where-should-i-report-a-problem-or-contact-the-team",
       "category": "create",
       "title": "Where should I report a problem or contact the team?",
-      "body": "For **MDPro4 crashes, installation/update failures, interface issues, artwork, controller behavior or translations**, use this server’s bug-report area and its template. Search existing reports first and keep one issue per report.\n\nFor suspected **YGOPro/ocgcore card-effect or script problems**, use [MyCard Forum](https://ygobbs2.com/c/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/10). Include the **.yrp3d replay**, card names and the turn/action. If it happened in Local AI, compare with Server AI when possible.\n\nIf the issue occurs specifically in an MDPro4 native-engine mode, report it here with that engine named and its saved replay if available. Native replay files use **.mdreplay**; do not rename them to .yrp3d. Do not send a client-only visual issue as a card-script bug.\n\nInclude your exact version and clear reproduction steps; a public ticket makes the investigation easier to follow.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459587514141507666"
+      "body": "For **MDPro4 crashes, installation/update failures, interface issues, artwork, controller behavior or translations**, use this server’s bug-report area and its template. Search existing reports first and keep one issue per report.\n\nFor suspected **YGOPro/ocgcore card-effect or script problems**, use [MyCard Forum](https://ygobbs2.com/c/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/10). Include the **.yrp3d replay**, card names and the turn/action. If it happened in Local AI, compare with Server AI when possible.\n\nIf the issue occurs specifically in an MDPro4 native-engine mode, report it here with that engine named and its saved replay if available. Native replay files use **.mdreplay**; do not rename them to .yrp3d. Do not send a client-only visual issue as a card-script bug.\n\nInclude your exact version and clear reproduction steps; a public ticket makes the investigation easier to follow."
     },
     {
       "id": "how-do-i-create-a-windbot-deck-ai",
       "category": "create",
       "title": "How do I create a WindBot deck AI?",
-      "body": "WindBot deck logic is written in **C#**. A `.ydk` file supplies the cards; a **deck executor** teaches the bot when and how to use them.\n\nStart with an existing executor close to your deck in [windbot-elder](https://github.com/ElderLich/windbot-elder), then implement and test the decisions your cards need.\n\nChanging the deck list alone does not teach new combos. When asking for help, include the executor code, deck list, a reproducible situation, and the move you expected.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459587774247207054"
+      "body": "WindBot deck logic is written in **C#**. A `.ydk` file supplies the cards; a **deck executor** teaches the bot when and how to use them.\n\nStart with an existing executor close to your deck in [windbot-elder](https://github.com/ElderLich/windbot-elder), then implement and test the decisions your cards need.\n\nChanging the deck list alone does not teach new combos. When asking for help, include the executor code, deck list, a reproducible situation, and the move you expected."
     },
     {
       "id": "how-do-i-make-custom-animations-or-visual-content",
       "category": "create",
       "title": "How do I make custom animations or visual content?",
-      "body": "First decide what you want to make: **card art, a summon cut-in, a wallpaper, a character, or a full animation**. They use different formats and workflows.\n\nFor a first project, begin with supported DIY images or a character pack. Full animations need compatible assets, effects, and support for the target platform; exporting an animation file alone is not enough to make it work in-game.\n\nWhen asking for help, include your **goal, platform, game version, and a short preview**. Use the instructions supplied with your installed version, since newer customization features may not be in older releases.",
-      "discordUrl": "https://discord.com/channels/506499657724067852/1459587879146619022"
+      "body": "First decide what you want to make: **card art, a summon cut-in, a wallpaper, a character, or a full animation**. They use different formats and workflows.\n\nFor a first project, begin with supported DIY images or a character pack. Full animations need compatible assets, effects, and support for the target platform; exporting an animation file alone is not enough to make it work in-game.\n\nWhen asking for help, include your **goal, platform, game version, and a short preview**. Use the instructions supplied with your installed version, since newer customization features may not be in older releases."
     },
     {
       "id": "how-do-i-make-custom-cards",
       "category": "create",
       "title": "How do I make custom cards?",
-      "body": "For the **ocgcore engine**, a working custom card has three parts:\n\n• **Database:** ID, name, text, type, and stats.\n• **Lua script:** what the effects actually do.\n• **Artwork:** how the card looks.\n\nUse [DataEditorX](https://github.com/ElderLich/DataEditorX) to edit the database and scripts. Follow [MDPro4 Sacred Book](https://elderlich.github.io/MDPro4_Sacred_Book/) for the learning path, functions, and examples.\n\nStart with one simple effect, keep its database ID and script filename consistent, and test locally. Writing effect text in the database does not implement the effect.\n\nSome DataEditorX menus still use the **MDPro3** name.",
-      "discordUrl": ""
+      "body": "For the **ocgcore engine**, a working custom card has three parts:\n\n• **Database:** ID, name, text, type, and stats.\n• **Lua script:** what the effects actually do.\n• **Artwork:** how the card looks.\n\nUse [DataEditorX](https://github.com/ElderLich/DataEditorX) to edit the database and scripts. Follow [MDPro4 Sacred Book](https://elderlich.github.io/MDPro4_Sacred_Book/) for the learning path, functions, and examples.\n\nStart with one simple effect, keep its database ID and script filename consistent, and test locally. Writing effect text in the database does not implement the effect.\n\nSome DataEditorX menus still use the **MDPro3** name."
     },
     {
       "id": "how-can-i-help-improve-translations",
       "category": "create",
       "title": "How can I help improve translations?",
-      "body": "**Interface text and card text use different workflows.**\n\nFor menus, buttons and messages, report the **screen, language, current wording and suggested correction**, preferably with a screenshot.\n\nFor card names, effects or prompts, include the **card ID/name and language**. To help with Pre-Release cards, start with the [Pre-Release translator guide](https://github.com/ElderLich/Pre-Release-Translations/blob/main/docs/TRANSLATOR_WORKFLOW.md), which explains the language workspace and DataEditorX workflow.\n\nTranslate text while keeping card IDs and gameplay values unchanged. You can report a small correction without setting up the whole toolchain.",
-      "discordUrl": ""
+      "body": "**Interface text and card text use different workflows.**\n\nFor menus, buttons and messages, report the **screen, language, current wording and suggested correction**, preferably with a screenshot.\n\nFor card names, effects or prompts, include the **card ID/name and language**. To help with Pre-Release cards, start with the [Pre-Release translator guide](https://github.com/ElderLich/Pre-Release-Translations/blob/main/docs/TRANSLATOR_WORKFLOW.md), which explains the language workspace and DataEditorX workflow.\n\nTranslate text while keeping card IDs and gameplay values unchanged. You can report a small correction without setting up the whole toolchain."
     },
     {
       "id": "where-can-i-learn-lua-and-card-scripting-functions",
       "category": "create",
       "title": "Where can I learn Lua and card scripting functions?",
-      "body": "Start with [MDPro4 Sacred Book](https://elderlich.github.io/MDPro4_Sacred_Book/).\n\n• **Learn:** Lua essentials, your first card, activation flow, and debugging.\n• **API:** functions and constants when you need an exact call.\n• **Examples:** real card scripts to study.\n• **Script Explorer:** find cards and existing patterns by text, ID, or function use.\n\nRush Duel also has its own lessons and helper reference.\n\nKeep [DataEditorX](https://github.com/ElderLich/DataEditorX) open beside the guide and build one small, testable effect at a time.",
-      "discordUrl": ""
+      "body": "Start with [MDPro4 Sacred Book](https://elderlich.github.io/MDPro4_Sacred_Book/).\n\n• **Learn:** Lua essentials, your first card, activation flow, and debugging.\n• **API:** functions and constants when you need an exact call.\n• **Examples:** real card scripts to study.\n• **Script Explorer:** find cards and existing patterns by text, ID, or function use.\n\nRush Duel also has its own lessons and helper reference.\n\nKeep [DataEditorX](https://github.com/ElderLich/DataEditorX) open beside the guide and build one small, testable effect at a time."
     }
   ]
 }

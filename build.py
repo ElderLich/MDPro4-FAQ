@@ -66,7 +66,7 @@ def markdown(text):
 
 def build():
     data = json.loads((ROOT / 'content/faqs.json').read_text(encoding='utf-8'))
-    allowed = {'id', 'category', 'title', 'body', 'discordUrl'}
+    allowed = {'id', 'category', 'title', 'body'}
     categories = {c['id']: c for c in data['categories']}
     ids = set()
     for row in data['faqs']:
@@ -75,7 +75,6 @@ def build():
         ids.add(row['id'])
         assert row['category'] in categories
         assert row['title'].strip() and row['body'].strip()
-        assert not row['discordUrl'] or re.fullmatch(r'https://discord\.com/channels/506499657724067852/\d+', row['discordUrl'])
         assert not re.search(r'(?:^|[\s`(])[A-Za-z]:[\\/]|file://|https?://(?:localhost|127\.0\.0\.1)|THREAD LINK NEEDED', row['body'])
 
     category_buttons = '<button class="category-button" type="button" data-category="all" aria-pressed="true"><span class="icon" aria-hidden="true">▦</span><span>All answers</span><span class="count">' + str(len(ids)) + '</span></button>'
@@ -86,12 +85,11 @@ def build():
     answers = []
     for number, row in enumerate(data['faqs'], 1):
         key = escape(row['id'])
-        discussion = ('<a class="thread-open" target="_blank" rel="noopener noreferrer" href="' + escape(row['discordUrl']) + '">Discord discussion ↗</a>') if row['discordUrl'] else ''
         opened = ' open' if number == 1 else ''
         answers.append(f'''<details class="answer" id="faq-{key}" data-category="{escape(row['category'])}"{opened}>
 <summary><span class="question-index" aria-hidden="true">{number:02d}</span><h3 class="question-heading">{escape(row['title'])}</h3></summary>
 <div class="answer-content"><span class="answer-category">{escape(categories[row['category']]['title'])}</span><div class="markdown">{markdown(row['body'])}</div>
-<div class="answer-actions"><button type="button" class="button primary" data-copy-answer="{key}">Copy answer</button><button type="button" class="button ghost" data-copy-link="{key}">Copy link</button>{discussion}</div></div></details>''')
+</div></details>''')
 
     updated = date.fromisoformat(data['updatedAt'])
     template = (ROOT / 'site.template.html').read_text(encoding='utf-8')

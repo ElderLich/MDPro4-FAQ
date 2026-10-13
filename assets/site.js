@@ -83,19 +83,6 @@
   $('reset-search').addEventListener('click', () => { category = 'all'; $('search').value = ''; filter(); $('search').focus(); });
   $('expand-all').addEventListener('click', () => answers.filter(answer => !answer.hidden).forEach(answer => { answer.open = true; }));
   $('collapse-all').addEventListener('click', () => answers.filter(answer => !answer.hidden).forEach(answer => { answer.open = false; }));
-  $('answers').addEventListener('click', event => {
-    const answerButton = event.target.closest('[data-copy-answer]');
-    if (answerButton) {
-      const faq = byId.get(answerButton.dataset.copyAnswer);
-      copy('## ' + faq.title + '\n\n' + faq.body, 'Answer copied.');
-    }
-    const linkButton = event.target.closest('[data-copy-link]');
-    if (linkButton) {
-      const url = new URL(location.href);
-      url.hash = 'faq-' + linkButton.dataset.copyLink;
-      copy(url.href, 'Link copied. Share this answer anywhere.');
-    }
-  });
   $('copy-report').addEventListener('click', () => copy($('report-template').textContent, 'Report template copied.'));
   document.addEventListener('keydown', event => {
     const editable = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName) || document.activeElement.isContentEditable;
