@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#090d1b">
+  <meta name="description" content="Find clear answers about MDPro4: downloads, updates, cards, translations, online play, troubleshooting and custom content.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MDPro4 — FAQ & Support">
+  <meta property="og:description" content="Find your answer. Get back to the duel. The community guide to MDPro4.">
+  <meta property="og:url" content="@@CANONICAL@@">
+  <meta property="og:image" content="@@CANONICAL@@assets/faq-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="@@CANONICAL@@">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+  <title>MDPro4 — FAQ & Support</title>
+</head>
+<body>
+<a class="skip-link" href="#faq">Skip to questions</a>
+<div class="shell">
+  <header class="masthead">
+    <a class="brand" href="#top" aria-label="MDPro4 FAQ and Support"><span class="brand-mark" aria-hidden="true">4</span><span><strong>MDPro4</strong><small>FAQ &amp; SUPPORT</small></span></a>
+    <div class="masthead-right"><span>Made for the community</span><a class="pill community-link" href="https://discord.com/channels/506499657724067852/1358748598518677606" target="_blank" rel="noopener noreferrer"><span class="dot" aria-hidden="true"></span>Discord ↗</a></div>
+  </header>
+  <main id="top">
+    <h1 class="sr-only">MDPro4 — FAQ &amp; Support</h1>
+    <section class="hero" aria-label="Welcome to the MDPro4 community guide">
+      <img src="assets/faq-banner.png" alt="MDPro4 — FAQ & Support, with glowing teal and violet cards" width="2172" height="724" fetchpriority="high">
+      <div class="hero-tail"><p><strong>Find your answer. Get back to the duel.</strong>From your first install to your next custom card.</p><div class="hero-stats" aria-label="Guide overview"><div class="stat"><b>@@ANSWER_COUNT@@</b><span>answers</span></div><div class="stat"><b>@@CATEGORY_COUNT@@</b><span>categories</span></div></div></div>
+    </section>
+    <div class="notice"><span class="notice-icon" aria-hidden="true">◇</span><div><b>Start with your version.</b> Follow the announcement for your platform. Menus, available cards and features can vary by release and duel engine.</div></div>
+    <nav class="workspace-nav" aria-label="Guide sections"><a href="#faq" class="workspace-tab" data-pane="faq" aria-current="page">All FAQs <span class="tab-count">@@ANSWER_COUNT@@</span></a><a href="#support" class="workspace-tab" data-pane="support">Get support</a><a href="#resources" class="workspace-tab" data-pane="resources">Creator resources</a></nav>
+    <section id="faq" data-section="faq" aria-label="Frequently asked questions">
+      <div class="library-grid">
+        <aside class="sidebar"><div class="sidebar-heading">Browse the library</div><div class="category-list" id="categories" aria-label="FAQ categories">@@CATEGORIES@@</div><div class="sidebar-help"><strong>Still need a hand?</strong><p>A clear report helps the community reproduce the problem.</p><a href="#support">Prepare your report ↗</a></div></aside>
+        <div class="library-main"><div class="search-wrap"><label class="sr-only" for="search">Search FAQ questions and answers</label><span class="search-icon" aria-hidden="true">⌕</span><input id="search" class="search" type="search" placeholder="Search a card, error, mode, or question…" autocomplete="off"><kbd class="search-key" id="search-key">/</kbd><button type="button" class="clear-search" id="clear-search" aria-label="Clear search" hidden>×</button></div>
+          <div class="results-head"><div><h2 id="results-title">All answers</h2><p id="result-count" aria-live="polite">@@ANSWER_COUNT@@ answers · Select a question to read more</p></div><div class="results-actions"><button type="button" class="small-button" id="expand-all">Expand all</button><button type="button" class="small-button" id="collapse-all">Collapse all</button></div></div>
+          <div class="answer-list" id="answers">@@ANSWERS@@</div><div class="empty" id="empty" hidden><h3>No matching answers yet</h3><p>Try a shorter phrase, a card name, or another category.</p><button type="button" class="button secondary" id="reset-search">Show all answers</button></div>
+        </div>
+      </div>
+    </section>
+    <section id="support" data-section="support" aria-labelledby="support-title">
+      <div class="pane-header"><div><span class="eyebrow">A good report gets you further</span><h2 id="support-title">Let’s figure it out.</h2><p>Search the FAQ first. If the issue remains, report one problem at a time and show us what happened.</p></div></div>
+      <div class="guide-grid"><article class="guide-card"><h3>Choose the right place</h3><p><strong>Loading, crashes, updates, graphics, controls or translations:</strong> open a post in the community’s <strong>#troubleshoot</strong> forum.</p><p><strong>Card effects or rulings in an ocgcore duel:</strong> use the <a href="https://ygobbs2.com/c/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/10" target="_blank" rel="noopener noreferrer">MyCard feedback forum</a>. Reports in English are welcome.</p><p><strong>Native-engine Solo:</strong> use #troubleshoot and name the engine.</p><p class="guide-note">For duel issues, attach the replay and identify the turn: <code>.yrp3d</code> for ocgcore, or the saved <code>.mdreplay</code> for native-engine Solo when available. If you cannot save a replay, explain why.</p><a class="button secondary" href="https://discord.com/channels/506499657724067852/1358748598518677606" target="_blank" rel="noopener noreferrer">Open the Discord community ↗</a><p class="channel-note">Discord links require access to the server. This website’s answers are available without signing in.</p></article>
+      <article class="guide-card"><h3>Make it easy to reproduce</h3><p>Copy the template, fill in what applies, and attach your evidence.</p><pre class="report-template" id="report-template">@@REPORT@@</pre><div class="pane-buttons"><button type="button" class="button primary" id="copy-report">Copy report template</button><a class="button ghost" href="bug-report-template.txt" download>Download .txt</a></div><p>For updates, include the previous and target versions, filename and mirror. For translations, include the language, current wording and your suggestion.</p></article></div>
+    </section>
+    <section id="resources" data-section="resources" aria-labelledby="resources-title">
+      <div class="pane-header"><div><span class="eyebrow">Learn. Experiment. Create.</span><h2 id="resources-title">Build something of your own.</h2><p>Start with the right tool for the job. A card’s database entry, effect script and artwork are separate pieces.</p></div></div>
+      <div class="resource-grid"><a class="resource-card" href="https://elderlich.github.io/MDPro4_Sacred_Book/" target="_blank" rel="noopener noreferrer"><span class="resource-icon" aria-hidden="true">✧</span><h3>The Sacred Book <span>↗</span></h3><p>Learn card scripting, look up API functions, and explore examples for Standard and Rush duels.</p><span class="resource-label">Learn &amp; reference</span></a><a class="resource-card" href="https://github.com/ElderLich/DataEditorX" target="_blank" rel="noopener noreferrer"><span class="resource-icon" aria-hidden="true">◇</span><h3>DataEditorX <span>↗</span></h3><p>Create and edit card database entries. Pair them with the effect scripts and artwork your cards need.</p><span class="resource-label">Card database tools</span></a><a class="resource-card" href="https://github.com/ElderLich/Pre-Release-Translations" target="_blank" rel="noopener noreferrer"><span class="resource-icon" aria-hidden="true">◎</span><h3>Pre-Release Translations <span>↗</span></h3><p>Explore the translation project and its contribution guidance for prerelease card content.</p><span class="resource-label">Translate &amp; contribute</span></a></div>
+      <div class="resource-next"><p><strong>Looking for the next step?</strong> Browse the answers on custom cards, WindBot AI, animations and translation contributions.</p><a class="button secondary" href="#category-create">Explore creator FAQs</a></div>
+    </section>
+    <noscript><p class="notice">JavaScript is off. Every answer is still available below each question; search and copy buttons need JavaScript. You can also <a href="faq.txt">read the complete text guide</a>.</p></noscript>
+  </main>
+  <footer class="footer"><span>MDPro4 community guide · Updated @@UPDATED@@<br>Independent community project; not the official Master Duel service.</span><span><a href="faq.txt" download>Text edition</a> · <a href="https://github.com/ElderLich/MDPro4-FAQ" target="_blank" rel="noopener noreferrer">GitHub ↗</a></span></footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<dialog class="copy-dialog" id="copy-dialog"><h2>Copy this text</h2><p>Automatic copying is unavailable here. Select and copy the text below.</p><textarea id="copy-text" aria-label="Text to copy" readonly></textarea><form method="dialog" class="dialog-actions"><button class="button primary">Done</button></form></dialog>
+<script id="faq-data" type="application/json">@@DATA@@</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Client and exact version:
+Device / operating system:
+Game language:
+Mode / server / duel engine:
+
+Steps to reproduce:
+1.
+2.
+3.
+
+Expected result:
+Actual result / exact error:
+How often does it happen?
+
+Attachments:
+What have you already tried?
