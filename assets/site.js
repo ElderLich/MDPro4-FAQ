@@ -99,7 +99,7 @@
   $('copy-report').addEventListener('click', () => copy($('report-template').textContent, 'Report template copied.'));
   document.addEventListener('keydown', event => {
     const editable = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName) || document.activeElement.isContentEditable;
-    if (event.key === '/' && !editable && !event.ctrlKey && !event.metaKey && !event.altKey) { event.preventDefault(); showSection('faq'); $('search').focus(); }
+    if (event.key === '/' && !editable && !event.ctrlKey && !event.metaKey && !event.altKey) { event.preventDefault(); history.replaceState(null, '', '#faq'); showSection('faq'); $('search').focus(); }
     if (event.key === 'Escape' && document.activeElement === $('search')) { $('search').value = ''; filter(); }
   });
   window.addEventListener('hashchange', route);
