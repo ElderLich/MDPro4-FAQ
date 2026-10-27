@@ -134,11 +134,11 @@ If it stops, report the part number, completed count, device and exact message.
 
 ## I missed several updates. Must I install each one?
 
-**Usually no—use the update offered for your installed version.** When a cumulative patch is published, it contains the changes needed to go directly from your version to the target release.
+**Usually no—use the update offered for your installed version.** A published cumulative patch can take a supported older installation directly to the target release.
 
-Windows can also process a supported chain of incremental patches in one update operation. Android, Linux and macOS need a published direct cumulative route.
+Windows can also apply a supported chain through its updater. Android, Linux and macOS use their explicitly published routes; if instructions offer a staged route, finish and restart after each step before taking the next one.
 
-Do not download every alternative patch or manually combine archives. If your version has no supported route, follow the release announcement's installation instructions.
+Do not apply a patch for another starting version or platform. If no route is offered, follow the full-installation guidance in the release announcement. A patch still needs a complete base installation; it is not a replacement for missing installer parts.
 
 ## Can I install MDPro4 over MDPro3?
 
@@ -219,6 +219,161 @@ Pre-Release packs and ordinary custom Lua cards extend the **ocgcore** card pool
 
 When reporting a missing card, effect problem or replay issue, include the **selected engine**, card name/ID, mode and game version. Attach the replay saved by that mode; keep its original file extension.
 
+## How do the Cloudflare banlist updates work?
+
+**MDPro4 checks its hosted banlist feed when the game starts online.** Standard, Genesys and Rush lists are refreshed automatically; you do not need a Cloudflare account or a separate manual download.
+
+Open the Deck Editor and select the format and dated banlist you want to build for. If an update cannot be downloaded or is invalid, the game keeps its last valid installed lists. You can still use those lists offline. Locally installed historical and custom lists absent from the feed are retained.
+
+**Online legality still follows the server or room's selected rules.** Updating your local lists does not change a public server's banlist. For a missing or incorrect restriction, report the format, list name/date, card and game version.
+
+## How do I show older banlists in the Deck Editor?
+
+Open **Settings → Duel → Banlist History** and choose **All**, **Latest 5 per format**, or **Latest 1 per format**.
+
+This controls which installed OCG, TCG, MD and AE lists appear in the Deck Editor. Rush and custom lists remain available. The setting filters the menu; it does not delete old lists or change an online room's rules.
+
+For a Progression Series, use that series' banlist settings instead. A series can follow historical OCG/TCG lists as its packs advance, use a fixed list, or use **N/A**. The organizer can change this policy between duels and share the updated series with Player 2.
+
+## How do I set up Deck Sync or link another device?
+
+Deck Sync was added in **1.0.5**. It uses an independent MDPro4 account; no email address or MyCard account is required.
+
+1. Open **Settings → Duel → MDPro4 Deck Sync → Create sync account**.
+2. Choose your display name and save the recovery key somewhere private. The game shows the key once and does not save it for you.
+3. Choose **Upload local decks** to copy your existing decks into the account's sync group. Keep using those copies for future cloud edits.
+4. On a signed-in device, choose **Link another device**. On the other device, choose **Link this device** and enter the one-use link key before it expires (10 minutes).
+5. Use **Sync now** on each device when you want to exchange changes.
+
+**Restore with recovery key** reconnects to an existing account. Do not create a second account to recover the first one's decks. **Manage linked devices** lets you revoke an old device. Keep recovery and link keys out of screenshots and public reports; losing every linked device and the recovery key can leave you unable to recover the account.
+
+## Why are synced decks in a separate MDSync group?
+
+**Yes, this is intentional.** Deck Sync keeps its managed copies in a dedicated account group, shown as **MDSync** or **MDPro4 Sync** in the deck selector. Those are usable local deck files, not a read-only view of the cloud.
+
+**Upload local decks** creates managed copies and leaves the originals in their regular groups. The original and its sync copy are independent. Deleting the original does not remove its cloud copy, and syncing does not rebuild the original's ordinary group.
+
+Open and edit the deck inside the sync group to keep working on the same cloud deck. You do not need to copy it out first. If you want a separate ordinary local copy, you can keep one, but changes to that independent copy will not automatically update the managed deck.
+
+## How do I make deck edits sync to the same remote deck?
+
+**Save the deck inside the sync group, then press Sync now.** Being signed in does not enable continuous automatic syncing.
+
+1. On device A, open the managed deck from the sync group, make your changes and save it.
+2. Open **Settings → Duel → MDPro4 Deck Sync → Sync now** and wait for it to finish successfully.
+3. On device B, sign in to the same account and press **Sync now** before opening that deck.
+
+Editing or renaming the managed deck keeps its cloud identity. Modifying an independent copy in an ordinary group and uploading it can create another cloud deck, even if the names match; that is not how to update the managed original. Changing the original regular-group deck also does not change the copy already uploaded.
+
+If changes do not arrive, check which group you edited, whether you saved, whether both devices use the same account, and the sync result. An expired or revoked session needs to be linked or restored again. Report the exact error and version, without sharing your recovery key.
+
+## I deleted my local decks. Can Deck Sync restore them?
+
+**First check which copies were deleted.** If decks still open from the MDSync group, the synced local copies are present. An empty ordinary group is expected: syncing does not recreate the original folders from before upload.
+
+**If the managed files themselves were deleted, 1.0.5 and 1.0.5.1 have a recovery bug.** The account can still list those cloud decks, but Sync now may leave the missing managed files absent. Restarting alone does not repair them. Do not use **Remove cloud deck** as a repair step; that removes the remote copy.
+
+The **upcoming 1.0.6 fix** makes **Sync now** fetch the latest cloud content for missing tracked files and restore them into the account's sync group, keeping the same cloud identities. Check the release announcement before relying on that behavior; this FAQ does not mean 1.0.6 has been published.
+
+On an older build, keep the cloud entries and any remaining local copies. A newly linked second device with no previous sync state can download the account's decks with **Sync now**. If you cannot recover them that way, report your version, the deleted group and whether the cloud entries remain visible. Never post the recovery key.
+
+## How do I remove a synced deck or handle a conflict?
+
+**To remove a deck from the cloud**, use **MDPro4 Deck Sync → Remove cloud deck**. This keeps its local file and stops that file from being tracked as the same cloud deck. Signing out also keeps local decks.
+
+Moving or deleting a managed file locally does not delete its cloud entry. With the upcoming 1.0.6 recovery fix, **Sync now** can recreate a missing managed copy; a copy moved elsewhere remains independent. Use the explicit cloud-removal action when you want the remote deck removed.
+
+**If two devices edit the same deck before syncing**, the game preserves conflicting changes as a separate conflict copy. Compare the copies, keep the changes you want and sync again. Sync before editing on another device to reduce conflicts.
+
+Deck Sync is useful for exchanging current decks, but it is not an unlimited version-history backup. Keep separate backups of decks you do not want to lose. **Delete sync account** is a different action that removes the account's cloud content, including its community Combo Sheets.
+
+## How do I read or create a Combo Sheet?
+
+Open **Deck Editor → Submenu → Combo Sheets**. Combo Sheets were added in **1.0.5**. Installed examples and your local drafts work offline.
+
+• Start with **Examples**, including the Chimera and Chaos Ritual guides. Select a variant and combo, then use **View full combo** to follow its steps. Card previews, starting hands and endboards help explain the route.
+• Use **My combo sheets** to create a named guide or copy an example into an editable draft. Add variants, starting/required cards, numbered steps and an endboard. The visual-flow editor can show actions, locations, arrows and alternatives.
+• Save the draft before leaving. Saving locally does not publish it. Combo Sheets explain plays; they do not execute the combo for you.
+
+**Planned for 1.0.6:** Test Hand can create a draft through **Save Combo Sheet** in duel settings or **From last Test Hand** in My combo sheets. Review and edit the captured actions and the draft's recording limits before sharing. Check the release announcement for availability.
+
+## How do I share a Combo Sheet or find community guides?
+
+Sign in through **Settings → Duel → MDPro4 Deck Sync**. Community Combo Sheets use that same account; they do not need another registration.
+
+1. Open **Deck Editor → Submenu → Combo Sheets → Community** to browse or search. Use archetype or custom tags to narrow the list.
+2. Read a guide, inspect its cards and vote if it helped you. The uploader name and vote totals belong to that publication; votes are not a guarantee that a route is correct for every ruleset.
+3. To share your own work, open a saved draft in **My combo sheets** and choose **Publish combo sheet**. Publication includes the entire sheet, with every variant and combo. Review all of it before confirming.
+4. Find your publications in **My uploads**. **Unpublish combo sheet** removes the community upload and keeps your local copy ready to edit or publish again.
+
+Copying a community guide creates an independent local draft. Editing that copy does not change the original author's upload. Include the sheet title, variant and step when reporting an incorrect route.
+
+## How do I start a Progression Series?
+
+Open **Adventures → Progression Series**. The mode arrived in 1.0.5; use **1.0.5.1 or later** because that follow-up restores the booster-track file missing from 1.0.5.
+
+1. Create a series and choose OCG or TCG, the starting set, set track, packs per set, duels per set and duel rules. Review these before creating: most series rules are fixed afterward.
+2. Choose **Open Packs**. Both duelists receive separate saved collections. Skipping the animation does not lose the cards or reroll the opening; use **Review Opened Cards** to see them again.
+3. Choose **Edit Deck** and build from your earned collection. Main, Extra and Side Deck copies all count toward what you own. Saving here updates the series deck, not an ordinary local deck.
+4. Choose **Duel**. The organizer can play **Local AI**, or arrange LAN/Evolution games with a friend. Start from the series so the correct deck and result are used.
+5. After a win, choose a prize. When the required number of duels is complete, choose **Next Set**, open the next packs and continue. Earlier cards remain in your collection.
+
+Pack rarity weights are simulation settings, not a promise of real booster-box odds. A series can use historical, fixed or N/A banlists. Ordinary Deck Sync does not synchronize this saved series; use **Series & Sharing** for that.
+
+## How do two players share and play a Progression Series?
+
+**Use one shared series, with one organizer and one Player 2.** Both players need compatible versions and matching card data. Creating two series with the same title does not link them.
+
+1. The organizer creates the series, opens the packs and saves their deck. Use **Series & Sharing → Export Series File** and send the resulting **.mdprog** file to the friend.
+2. The friend uses **Import Series → Import Series File**, which assigns Player 2, then builds their own deck with **Edit Deck**. For a short copied series code, use **Import as Player 2** instead. Full set tracks are better shared as files.
+3. From **Duel**, the organizer creates a LAN or supported Evolution room and shares its room invitation. Player 2 uses **Duel → Join Room** from the imported series and follows the invitation prompt. Evolution requires both players to sign in; LAN requires a reachable host address and port.
+4. The organizer confirms the intended opponent, then both play. After the result, the organizer chooses the winner's prize, consulting Player 2 if they won.
+5. The organizer exports the updated series and Player 2 imports it before the next duel. Share again after advancing sets and opening packs. Player 2's valid saved deck is retained.
+
+**Waiting for the organizer means import their new series file**, not press ordinary Deck Sync. The organizer controls results, prizes and advancement. Play with trusted friends: this file exchange is not a server-managed competitive economy.
+
+The upcoming 1.0.6 update adds a clearer Join Room text field with **Paste**; older builds use their existing invitation prompt.
+
+## What is Evolution, and is it the same as Progression?
+
+**Evolution is an online duel service. Progression Series is the pack-opening campaign in Adventures.** A Progression game can use an Evolution room, but the two features have different accounts and saved state.
+
+Open **Online → Evolution**, sign in to that service, choose a format and select a legal deck. Choose one of the supported ranked queues for matchmaking, or use casual rooms to play with friends. Casual room controls offer the supported duel types and rules, including Tag duels where available.
+
+Check the chosen format, room rules and server banlist before joining. An ordinary duel launched directly from Online does not advance a Progression Series; launch it from that series' **Duel** action instead.
+
+Your Evolution login is separate from the email-free **MDPro4 Deck Sync** account. Being signed in to one does not sign you in to the other. If a server rejects the deck or connection, keep the exact error and include the format and game version in your report.
+
+## How do I show MDPro4 activity on Discord?
+
+On a supported desktop build, start the **Discord desktop app**, then open **Settings → General → Discord Rich Presence** in MDPro4 and turn it on. It is optional and off by default. Check the status shown beneath the setting.
+
+Presence can show activities such as editing a deck, waiting in a room, dueling or watching a replay. It does not publish your deck contents, room password or login credentials. Turning it off clears the game's activity.
+
+This integration targets **Windows, Linux and macOS desktop builds**. It is unavailable on Android, and Discord in a browser does not replace the desktop app. If the setting says it is waiting for Discord, check that the desktop app is running and that Discord's activity-sharing settings allow the game to appear.
+
+**Discord game invitations** is a separate opt-in setting. Rich Presence alone does not make every room joinable.
+
+## How do Discord game invitations work?
+
+Enable both **Settings → General → Discord Rich Presence** and **Discord game invitations**. Your friend also needs a compatible desktop MDPro4 build, Discord running and the invitation settings enabled.
+
+Join a **public waiting room with a free player seat** on a service that supports MDPro4's Discord invitations. Use Discord's game-invitation or join controls when they are offered. The receiving game asks for confirmation and any required service sign-in before joining with the selected deck.
+
+Private/password-protected rooms, full rooms, active duels and reserved matchmaking rooms do not become public invitations. Server support is required; ordinary presence can work even when a server does not offer invitations. If you are already in a room, duel or editing session, finish or leave it before accepting the pending invitation.
+
+If the room has closed or filled up, ask for a new invitation. You can also use MDPro4's normal **Copy join link** and Online room-code/connection controls. Discord does not make an unreachable LAN address accessible to a friend.
+
+## What is Duel Expedition, and where do I start?
+
+Open **Adventures → Overview** and select **Duel Expedition**. It was added in 1.0.5 and offers a saved solo run through **The Forgotten Sanctuary**.
+
+Choose a starter deck, reward path and difficulty, then take on successive duel stages. Between duels, rewards and encounters let you improve the run's deck. Standard, Veteran and Expert begin with three, two and one life respectively; a confirmed defeat costs a life.
+
+Runs and progress save locally, so return to the mode to continue. This is separate from a Progression Series and from Deck Sync. Newer run rules include camp, event and merchant encounters, while older saved runs keep their original rules.
+
+The finished-run history lets you review recent routes and decks. You can export a completed expedition deck into your normal deck collection without replacing existing files.
+
 ## How do I play online or invite a friend?
 
 Open **Online** and choose the service or room you want to use. Both players need a compatible game version and the same server/room details.
@@ -261,11 +416,13 @@ If a mixed-platform connection fails, report **both platforms, both game version
 
 ## Can I use the Master Duel banlist?
 
-Where the mode offers banlist selection, choose an installed list marked **MD** and check its date.
+Where the mode offers banlist selection, choose an installed list marked **MD** and check its date. Hosted banlist updates are checked when the game starts online.
 
-For online duels, the **server or host’s selected rules** decide which cards are legal. Selecting an MD list in the Deck Editor helps you build for it, but does not change an existing server’s rules.
+If an older installed list is hidden, open **Settings → Duel → Banlist History** and choose **All**. This changes the Deck Editor's list display, not an online room's rules.
 
-If the list you need is missing, check the latest release/data information before reporting its name and date.
+For online duels, the **server or host's selected rules** decide which cards are legal. Selecting an MD list in the Deck Editor helps you build for it, but does not change an existing server's rules.
+
+If the list you need is still missing, report its name/date and your game version after checking the latest release/data information.
 
 ## Why is the online room list empty?
 
