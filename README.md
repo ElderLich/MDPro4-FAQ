@@ -1,6 +1,6 @@
 # MDPro4 — FAQ & Support
 
-A public community guide for MDPro4, with 69 answers across eight categories, searchable questions, readable answer panels, bug-report guidance and creator resources.
+A public community guide for MDPro4, with 71 answers across eight categories, searchable questions, readable answer panels, bug-report guidance and creator resources.
 
 **Live site:** https://elderlich.github.io/MDPro4-FAQ/
 
@@ -28,6 +28,6 @@ The guide distinguishes ocgcore duels from native-engine Solo, along with their 
 
 ## Content and artwork
 
-The answers were adapted from the project's community FAQ and reviewed on 27 October 2026. The banner is a generated decorative image created for this FAQ. The favicon is an original vector mark. The website publishes only player-facing content; local authoring notes and workstation paths are excluded.
+The answers were adapted from the project's community FAQ and reviewed on 28 October 2026. The banner is a generated decorative image created for this FAQ. The favicon is an original vector mark. The website publishes only player-facing content; local authoring notes and workstation paths are excluded.
 
 MDPro4 is an independent community project, separate from the official Master Duel service. Linked third-party tools and projects retain their respective ownership and licenses.

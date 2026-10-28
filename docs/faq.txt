@@ -247,6 +247,22 @@ Deck Sync was added in **1.0.5**. It uses an independent MDPro4 account; no emai
 
 **Restore with recovery key** reconnects to an existing account. Do not create a second account to recover the first one's decks. **Manage linked devices** lets you revoke an old device. Keep recovery and link keys out of screenshots and public reports; losing every linked device and the recovery key can leave you unable to recover the account.
 
+## How many decks can I keep in Deck Sync?
+
+**Each account supports 600 deck identities.** The service limit was raised from 100 to 600 on 28 October 2026 and applies to existing accounts without creating a new account or installing a new client. Ordinary local decks outside sync are not counted.
+
+Editing or renaming an existing managed deck keeps its identity and does not use another slot. Uploading a separate deck or preserving a conflict as a new deck does use a slot. Deleted cloud decks still count because their deletion records must reach devices that have been offline; deleting decks does not reclaim identity slots. Existing identities can still be edited at capacity.
+
+Older clients may still mention 100 in the capacity error text. The server enforces 600; the upcoming 1.0.6 client updates that message.
+
+## Why do synced deck names have long codes in brackets?
+
+The bracketed code is a sync ID added to the local filename so separate decks with the same title cannot overwrite each other. It is not a card-list problem and does not mean the deck was corrupted.
+
+The **upcoming 1.0.6 client fix** hides this internal suffix from deck tiles, title searches, selection buttons and the editor name field. The filename and sync identity remain intact, so opening or saving the deck still updates the same cloud deck. User renames retain their existing sync identity.
+
+You do not need to rename files manually or re-upload the decks to remove the code from the display. This display fix requires the updated game client; the server-side 600-deck limit is already active.
+
 ## Why are synced decks in a separate MDSync group?
 
 **Yes, this is intentional.** Deck Sync keeps its managed copies in a dedicated account group, shown as **MDSync** or **MDPro4 Sync** in the deck selector. Those are usable local deck files, not a read-only view of the cloud.

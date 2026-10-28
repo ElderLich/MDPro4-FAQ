@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "siteUrl": "https://elderlich.github.io/MDPro4-FAQ/",
   "categories": [
     {
@@ -219,6 +219,18 @@
       "category": "features",
       "title": "How do I set up Deck Sync or link another device?",
       "body": "Deck Sync was added in **1.0.5**. It uses an independent MDPro4 account; no email address or MyCard account is required.\n\n1. Open **Settings → Duel → MDPro4 Deck Sync → Create sync account**.\n2. Choose your display name and save the recovery key somewhere private. The game shows the key once and does not save it for you.\n3. Choose **Upload local decks** to copy your existing decks into the account's sync group. Keep using those copies for future cloud edits.\n4. On a signed-in device, choose **Link another device**. On the other device, choose **Link this device** and enter the one-use link key before it expires (10 minutes).\n5. Use **Sync now** on each device when you want to exchange changes.\n\n**Restore with recovery key** reconnects to an existing account. Do not create a second account to recover the first one's decks. **Manage linked devices** lets you revoke an old device. Keep recovery and link keys out of screenshots and public reports; losing every linked device and the recovery key can leave you unable to recover the account."
+    },
+    {
+      "id": "how-many-decks-can-i-sync",
+      "category": "features",
+      "title": "How many decks can I keep in Deck Sync?",
+      "body": "**Each account supports 600 deck identities.** The service limit was raised from 100 to 600 on 28 October 2026 and applies to existing accounts without creating a new account or installing a new client. Ordinary local decks outside sync are not counted.\n\nEditing or renaming an existing managed deck keeps its identity and does not use another slot. Uploading a separate deck or preserving a conflict as a new deck does use a slot. Deleted cloud decks still count because their deletion records must reach devices that have been offline; deleting decks does not reclaim identity slots. Existing identities can still be edited at capacity.\n\nOlder clients may still mention 100 in the capacity error text. The server enforces 600; the upcoming 1.0.6 client updates that message."
+    },
+    {
+      "id": "why-do-synced-decks-have-long-names",
+      "category": "features",
+      "title": "Why do synced deck names have long codes in brackets?",
+      "body": "The bracketed code is a sync ID added to the local filename so separate decks with the same title cannot overwrite each other. It is not a card-list problem and does not mean the deck was corrupted.\n\nThe **upcoming 1.0.6 client fix** hides this internal suffix from deck tiles, title searches, selection buttons and the editor name field. The filename and sync identity remain intact, so opening or saving the deck still updates the same cloud deck. User renames retain their existing sync identity.\n\nYou do not need to rename files manually or re-upload the decks to remove the code from the display. This display fix requires the updated game client; the server-side 600-deck limit is already active."
     },
     {
       "id": "why-are-synced-decks-in-their-own-group",
